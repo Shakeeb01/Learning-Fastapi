@@ -17,6 +17,7 @@ def index():
     # this is how we return json reponse.
 
 
+# http://127.0.0.1:8000/about
 @app.get('/about')
 def intro():
     return {'about' :"Shakeeb is a backend developer" }
